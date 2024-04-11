@@ -35,6 +35,36 @@ python3 train.py --config=src/configs/mlp_base.py
 Performance on val set: per-crop performance
 Performance on test set: per-document performance
 
+# Reference
+If you make use of this code, please cite the following publication:
+```
+@INPROCEEDINGS{Take2406:Classification,
+AUTHOR="Patrick Takenaka and Manuel Eberhardinger and Daniel {Grie{\ss}haber} and
+Johannes Maucher",
+TITLE="Classification of Inkjet Printers Based on Droplet Statistics",
+BOOKTITLE="2024 International Joint Conference on Neural Networks (IJCNN) (IJCNN 2024)",
+ADDRESS="Yokohama, Japan",
+PAGES="6.61",
+DAYS=28,
+MONTH=jun,
+YEAR=2024,
+KEYWORDS="printer classification; frequency domain features; feature extraction;
+feature engineering",
+ABSTRACT="Knowing the printer model used to print a given document may provide a
+crucial lead towards identifying counterfeits or conversely verifying the
+validity of a real document. Inkjet printers produce probabilistic droplet
+patterns that appear to be distinct for each printer model and as such we
+investigate the utilization of droplet characteristics including frequency
+domain features extracted from printed document scans for the
+classification of the underlying printer model. We collect and publish a
+dataset of high resolution document scans and show that our extracted
+features are informative enough to enable a neural network to distinguish
+not only the printer manufacturer, but also individual printer models."
+}
+
+
+```
+
 # File Info
 
 ## metadata.pkl
